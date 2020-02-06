@@ -1,0 +1,20 @@
+@import "/sections/header";
+@import "/components/menu";
+
+@import "/sections/content";
+@import "/components/image";
+
+@import "/sections/footer";
+@import "/components/widget";
+
+@import "woocommerce/productCategory";
+@import "woocommerce/singleProduct";
+@import "woocommerce/shop";
+
+@import "parent_override";
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
